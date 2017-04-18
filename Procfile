@@ -1,1 +1,1 @@
-web: node .\tiddlywiki.js myNew --server
+web: node .\tiddlywiki.js myApp --server
