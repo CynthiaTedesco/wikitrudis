@@ -283,6 +283,9 @@ Command.prototype.execute = function() {
 	if(!$tw.boot.wikiTiddlersPath) {
 		$tw.utils.warning("Warning: Wiki folder '" + $tw.boot.wikiPath + "' does not exist or is missing a tiddlywiki.info file");
 	}
+	console.log(this.params);
+	console.log('---> ');
+	console.log(process.env);
 	var port = this.params[0] || "8080",
 		rootTiddler = this.params[1] || "$:/core/save/all",
 		renderType = this.params[2] || "text/plain",
