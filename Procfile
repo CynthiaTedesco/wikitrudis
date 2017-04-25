@@ -1,1 +1,1 @@
-web: node tiddlywiki.js myApp --server 3000
+web: node tiddlywiki.js myApp
